@@ -31,6 +31,7 @@
 .window-tiled-border {
   border-width: 3px;
   margin: 0px;
+  padding: 0px;
   border-color: rgba(236, 94, 94, 1);
   border-style: solid;
   border-radius: 14px;
@@ -39,14 +40,12 @@
 .window-split-border {
   border-width: 3px;
   margin: 0px;
+  padding: 0px;
   border-color: rgba(255, 246, 108, 1);
   border-style: solid;
   border-radius: 14px;
 }
 
-.window-unfocused {
-  border-color: rgba(255, 255, 255, 0.5);
-}
 .window-split-horizontal {
   border-left-width: 0;
   border-top-width: 0;
@@ -62,6 +61,7 @@
 .window-stacked-border {
   border-width: 3px;
   margin: 0px;
+  padding: 0px;
   border-color: rgba(247, 162, 43, 1);
   border-style: solid;
   border-radius: 14px;
@@ -70,6 +70,7 @@
 .window-tabbed-border {
   border-width: 3px;
   margin: 0px;
+  padding: 0px;
   border-color: rgba(17, 199, 224, 1);
   border-style: solid;
   border-radius: 14px;
@@ -110,9 +111,17 @@
 .window-floated-border {
   border-width: 3px;
   margin: 0px;
+  padding: 0px;
   border-color: rgba(180, 167, 214, 1);
   border-style: solid;
   border-radius: 14px;
+}
+
+.window-unfocused {
+  border-width: 3px;
+  margin: 0px;
+  padding: 0px;
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .window-tilepreview-tiled {
