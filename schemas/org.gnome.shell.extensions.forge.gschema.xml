@@ -22,6 +22,11 @@
             <summary>Show split direction border on focused window</summary>
         </key>
 
+        <key type="b" name="inactive-border-toggle">
+            <default>true</default>
+            <summary>Show window borders on inactive windows</summary>
+        </key>
+
         <key type="s" name="split-border-color">
             <default>'rgba(255, 246, 108, 1)'</default>
             <summary>The focused border's current color</summary>
