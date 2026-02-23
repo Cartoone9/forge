@@ -44,9 +44,6 @@
   border-radius: 14px;
 }
 
-.window-unfocused {
-  border-color: rgba(255, 255, 255, 0.5);
-}
 .window-split-horizontal {
   border-left-width: 0;
   border-top-width: 0;
@@ -113,6 +110,12 @@
   border-color: rgba(180, 167, 214, 1);
   border-style: solid;
   border-radius: 14px;
+}
+
+.window-unfocused {
+  border-width: 3px;
+  margin: 0px;
+  border-color: rgba(255, 255, 255, 0.5);
 }
 
 .window-tilepreview-tiled {
